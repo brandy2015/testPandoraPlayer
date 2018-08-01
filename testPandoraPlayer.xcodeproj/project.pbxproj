@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB898E02F4FE574C1086CCB /* Pods_testPandoraPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F9BA828F39503B5C38B579 /* Pods_testPandoraPlayer.framework */; };
+		D65B42C4211131FB0002CC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42C3211131FB0002CC02 /* AppDelegate.swift */; };
+		D65B42C6211131FB0002CC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42C5211131FB0002CC02 /* ViewController.swift */; };
+		D65B42C9211131FB0002CC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65B42C7211131FB0002CC02 /* Main.storyboard */; };
+		D65B42CB211131FD0002CC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65B42CA211131FD0002CC02 /* Assets.xcassets */; };
+		D65B42CE211131FD0002CC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65B42CC211131FD0002CC02 /* LaunchScreen.storyboard */; };
+		D65B42D62111320E0002CC02 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D65B42D52111320E0002CC02 /* Podfile */; };
+		D65B42DA211137DC0002CC02 /* PandoraPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65B42D8211137DC0002CC02 /* PandoraPlayer.storyboard */; };
+		D65B42EE211137EB0002CC02 /* RoundedPictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D65B42DE211137EB0002CC02 /* RoundedPictureCollectionViewCell.xib */; };
+		D65B42EF211137EB0002CC02 /* RoundedPictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42DF211137EB0002CC02 /* RoundedPictureCollectionViewCell.swift */; };
+		D65B42F0211137EB0002CC02 /* WaveVisualizer.xib in Resources */ = {isa = PBXBuildFile; fileRef = D65B42E1211137EB0002CC02 /* WaveVisualizer.xib */; };
+		D65B42F1211137EB0002CC02 /* WaveVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42E2211137EB0002CC02 /* WaveVisualizer.swift */; };
+		D65B42F2211137EB0002CC02 /* ViewWithXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42E3211137EB0002CC02 /* ViewWithXib.swift */; };
+		D65B42F3211137EB0002CC02 /* PlayerControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42E5211137EB0002CC02 /* PlayerControls.swift */; };
+		D65B42F4211137EB0002CC02 /* PlayerControls.xib in Resources */ = {isa = PBXBuildFile; fileRef = D65B42E6211137EB0002CC02 /* PlayerControls.xib */; };
+		D65B42F5211137EB0002CC02 /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42E8211137EB0002CC02 /* CenterCellCollectionViewFlowLayout.swift */; };
+		D65B42F6211137EB0002CC02 /* PlayerSongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42E9211137EB0002CC02 /* PlayerSongList.swift */; };
+		D65B42F7211137EB0002CC02 /* PlayerSongList.xib in Resources */ = {isa = PBXBuildFile; fileRef = D65B42EA211137EB0002CC02 /* PlayerSongList.xib */; };
+		D65B42F8211137EB0002CC02 /* PlayerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42EC211137EB0002CC02 /* PlayerSlider.swift */; };
+		D65B42F9211137EB0002CC02 /* PlayerSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = D65B42ED211137EB0002CC02 /* PlayerSlider.xib */; };
+		D65B430A211137FB0002CC02 /* UIImageColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42FB211137FB0002CC02 /* UIImageColors.swift */; };
+		D65B430B211137FB0002CC02 /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42FC211137FB0002CC02 /* UIImageEffects.swift */; };
+		D65B430C211137FB0002CC02 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B42FE211137FB0002CC02 /* Constants.swift */; };
+		D65B430D211137FB0002CC02 /* MetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B4300211137FB0002CC02 /* MetaData.swift */; };
+		D65B430E211137FB0002CC02 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B4301211137FB0002CC02 /* Song.swift */; };
+		D65B430F211137FB0002CC02 /* PandoraPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B4303211137FB0002CC02 /* PandoraPlayer.swift */; };
+		D65B4310211137FB0002CC02 /* VisualisationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B4305211137FB0002CC02 /* VisualisationHelper.swift */; };
+		D65B4311211137FB0002CC02 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B4307211137FB0002CC02 /* CommonExtensions.swift */; };
+		D65B4312211137FB0002CC02 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B4308211137FB0002CC02 /* Array.swift */; };
+		D65B4313211137FB0002CC02 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B4309211137FB0002CC02 /* NSObjectExtensions.swift */; };
+		D65B431521113C160002CC02 /* 薛之谦-丑八怪.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D65B431421113C160002CC02 /* 薛之谦-丑八怪.mp3 */; };
+		D65B431721115A950002CC02 /* 李贰叁-往后余生.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D65B431621115A950002CC02 /* 李贰叁-往后余生.mp3 */; };
+		D65B431A21115BA70002CC02 /* 阿里郎-隔壁泰山.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D65B431921115BA70002CC02 /* 阿里郎-隔壁泰山.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32363296049DD6EBCBD5DD6B /* Pods-testPandoraPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPandoraPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-testPandoraPlayer/Pods-testPandoraPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		3AA656FA9C21D1765D73BDF6 /* Pods-testPandoraPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testPandoraPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testPandoraPlayer/Pods-testPandoraPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		92F9BA828F39503B5C38B579 /* Pods_testPandoraPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testPandoraPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65B42C0211131FB0002CC02 /* testPandoraPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testPandoraPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65B42C3211131FB0002CC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D65B42C5211131FB0002CC02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D65B42C8211131FB0002CC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D65B42CA211131FD0002CC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D65B42CD211131FD0002CC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D65B42CF211131FD0002CC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65B42D52111320E0002CC02 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D65B42D9211137DC0002CC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PandoraPlayer.storyboard; sourceTree = "<group>"; };
+		D65B42DE211137EB0002CC02 /* RoundedPictureCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundedPictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		D65B42DF211137EB0002CC02 /* RoundedPictureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedPictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		D65B42E1211137EB0002CC02 /* WaveVisualizer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaveVisualizer.xib; sourceTree = "<group>"; };
+		D65B42E2211137EB0002CC02 /* WaveVisualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveVisualizer.swift; sourceTree = "<group>"; };
+		D65B42E3211137EB0002CC02 /* ViewWithXib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWithXib.swift; sourceTree = "<group>"; };
+		D65B42E5211137EB0002CC02 /* PlayerControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerControls.swift; sourceTree = "<group>"; };
+		D65B42E6211137EB0002CC02 /* PlayerControls.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerControls.xib; sourceTree = "<group>"; };
+		D65B42E8211137EB0002CC02 /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		D65B42E9211137EB0002CC02 /* PlayerSongList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSongList.swift; sourceTree = "<group>"; };
+		D65B42EA211137EB0002CC02 /* PlayerSongList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerSongList.xib; sourceTree = "<group>"; };
+		D65B42EC211137EB0002CC02 /* PlayerSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSlider.swift; sourceTree = "<group>"; };
+		D65B42ED211137EB0002CC02 /* PlayerSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerSlider.xib; sourceTree = "<group>"; };
+		D65B42FB211137FB0002CC02 /* UIImageColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageColors.swift; sourceTree = "<group>"; };
+		D65B42FC211137FB0002CC02 /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageEffects.swift; sourceTree = "<group>"; };
+		D65B42FE211137FB0002CC02 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D65B4300211137FB0002CC02 /* MetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaData.swift; sourceTree = "<group>"; };
+		D65B4301211137FB0002CC02 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		D65B4303211137FB0002CC02 /* PandoraPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PandoraPlayer.swift; sourceTree = "<group>"; };
+		D65B4305211137FB0002CC02 /* VisualisationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualisationHelper.swift; sourceTree = "<group>"; };
+		D65B4307211137FB0002CC02 /* CommonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		D65B4308211137FB0002CC02 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		D65B4309211137FB0002CC02 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
+		D65B431421113C160002CC02 /* 薛之谦-丑八怪.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "薛之谦-丑八怪.mp3"; sourceTree = "<group>"; };
+		D65B431621115A950002CC02 /* 李贰叁-往后余生.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李贰叁-往后余生.mp3"; sourceTree = "<group>"; };
+		D65B431921115BA70002CC02 /* 阿里郎-隔壁泰山.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "阿里郎-隔壁泰山.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D65B42BD211131FB0002CC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB898E02F4FE574C1086CCB /* Pods_testPandoraPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4630B2CB210EE80F31568A5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AA656FA9C21D1765D73BDF6 /* Pods-testPandoraPlayer.debug.xcconfig */,
+				32363296049DD6EBCBD5DD6B /* Pods-testPandoraPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		519DAF135E78F795A7349677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92F9BA828F39503B5C38B579 /* Pods_testPandoraPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D65B42B7211131FB0002CC02 = {
+			isa = PBXGroup;
+			children = (
+				D65B42D52111320E0002CC02 /* Podfile */,
+				D65B42C2211131FB0002CC02 /* testPandoraPlayer */,
+				D65B42C1211131FB0002CC02 /* Products */,
+				4630B2CB210EE80F31568A5D /* Pods */,
+				519DAF135E78F795A7349677 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D65B42C1211131FB0002CC02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42C0211131FB0002CC02 /* testPandoraPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D65B42C2211131FB0002CC02 /* testPandoraPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D65B431921115BA70002CC02 /* 阿里郎-隔壁泰山.mp3 */,
+				D65B431421113C160002CC02 /* 薛之谦-丑八怪.mp3 */,
+				D65B431621115A950002CC02 /* 李贰叁-往后余生.mp3 */,
+				D65B42C3211131FB0002CC02 /* AppDelegate.swift */,
+				D65B42C5211131FB0002CC02 /* ViewController.swift */,
+				D65B42C7211131FB0002CC02 /* Main.storyboard */,
+				D65B42CA211131FD0002CC02 /* Assets.xcassets */,
+				D65B42FD211137FB0002CC02 /* Constants */,
+				D65B4302211137FB0002CC02 /* Controllers */,
+				D65B4306211137FB0002CC02 /* Extensions */,
+				D65B4304211137FB0002CC02 /* Helpers */,
+				D65B42FF211137FB0002CC02 /* Models */,
+				D65B42FA211137FB0002CC02 /* Vendors */,
+				D65B42DB211137EB0002CC02 /* Views */,
+				D65B42D7211137DC0002CC02 /* Storyboards */,
+				D65B42CC211131FD0002CC02 /* LaunchScreen.storyboard */,
+				D65B42CF211131FD0002CC02 /* Info.plist */,
+			);
+			path = testPandoraPlayer;
+			sourceTree = "<group>";
+		};
+		D65B42D7211137DC0002CC02 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42D8211137DC0002CC02 /* PandoraPlayer.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D65B42DB211137EB0002CC02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42DC211137EB0002CC02 /* Cells */,
+				D65B42E0211137EB0002CC02 /* WaveVisualizer */,
+				D65B42E3211137EB0002CC02 /* ViewWithXib.swift */,
+				D65B42E4211137EB0002CC02 /* PlayerControls */,
+				D65B42E7211137EB0002CC02 /* PlayerSongList */,
+				D65B42EB211137EB0002CC02 /* PlayerSlider */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D65B42DC211137EB0002CC02 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42DD211137EB0002CC02 /* RoundedPictureCollectionViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D65B42DD211137EB0002CC02 /* RoundedPictureCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42DE211137EB0002CC02 /* RoundedPictureCollectionViewCell.xib */,
+				D65B42DF211137EB0002CC02 /* RoundedPictureCollectionViewCell.swift */,
+			);
+			path = RoundedPictureCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		D65B42E0211137EB0002CC02 /* WaveVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42E1211137EB0002CC02 /* WaveVisualizer.xib */,
+				D65B42E2211137EB0002CC02 /* WaveVisualizer.swift */,
+			);
+			path = WaveVisualizer;
+			sourceTree = "<group>";
+		};
+		D65B42E4211137EB0002CC02 /* PlayerControls */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42E5211137EB0002CC02 /* PlayerControls.swift */,
+				D65B42E6211137EB0002CC02 /* PlayerControls.xib */,
+			);
+			path = PlayerControls;
+			sourceTree = "<group>";
+		};
+		D65B42E7211137EB0002CC02 /* PlayerSongList */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42E8211137EB0002CC02 /* CenterCellCollectionViewFlowLayout.swift */,
+				D65B42E9211137EB0002CC02 /* PlayerSongList.swift */,
+				D65B42EA211137EB0002CC02 /* PlayerSongList.xib */,
+			);
+			path = PlayerSongList;
+			sourceTree = "<group>";
+		};
+		D65B42EB211137EB0002CC02 /* PlayerSlider */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42EC211137EB0002CC02 /* PlayerSlider.swift */,
+				D65B42ED211137EB0002CC02 /* PlayerSlider.xib */,
+			);
+			path = PlayerSlider;
+			sourceTree = "<group>";
+		};
+		D65B42FA211137FB0002CC02 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42FB211137FB0002CC02 /* UIImageColors.swift */,
+				D65B42FC211137FB0002CC02 /* UIImageEffects.swift */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		D65B42FD211137FB0002CC02 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D65B42FE211137FB0002CC02 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D65B42FF211137FB0002CC02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D65B4300211137FB0002CC02 /* MetaData.swift */,
+				D65B4301211137FB0002CC02 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D65B4302211137FB0002CC02 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D65B4303211137FB0002CC02 /* PandoraPlayer.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D65B4304211137FB0002CC02 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D65B4305211137FB0002CC02 /* VisualisationHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D65B4306211137FB0002CC02 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D65B4307211137FB0002CC02 /* CommonExtensions.swift */,
+				D65B4308211137FB0002CC02 /* Array.swift */,
+				D65B4309211137FB0002CC02 /* NSObjectExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D65B42BF211131FB0002CC02 /* testPandoraPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65B42D2211131FD0002CC02 /* Build configuration list for PBXNativeTarget "testPandoraPlayer" */;
+			buildPhases = (
+				0E5F4DFD16D9056119973534 /* [CP] Check Pods Manifest.lock */,
+				D65B42BC211131FB0002CC02 /* Sources */,
+				D65B42BD211131FB0002CC02 /* Frameworks */,
+				D65B42BE211131FB0002CC02 /* Resources */,
+				6E20DB14E6D298ED20679AF0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testPandoraPlayer;
+			productName = testPandoraPlayer;
+			productReference = D65B42C0211131FB0002CC02 /* testPandoraPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D65B42B8211131FB0002CC02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zhangqian;
+				TargetAttributes = {
+					D65B42BF211131FB0002CC02 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D65B42BB211131FB0002CC02 /* Build configuration list for PBXProject "testPandoraPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D65B42B7211131FB0002CC02;
+			productRefGroup = D65B42C1211131FB0002CC02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D65B42BF211131FB0002CC02 /* testPandoraPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D65B42BE211131FB0002CC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65B42CE211131FD0002CC02 /* LaunchScreen.storyboard in Resources */,
+				D65B42CB211131FD0002CC02 /* Assets.xcassets in Resources */,
+				D65B431A21115BA70002CC02 /* 阿里郎-隔壁泰山.mp3 in Resources */,
+				D65B42D62111320E0002CC02 /* Podfile in Resources */,
+				D65B42F9211137EB0002CC02 /* PlayerSlider.xib in Resources */,
+				D65B42EE211137EB0002CC02 /* RoundedPictureCollectionViewCell.xib in Resources */,
+				D65B431521113C160002CC02 /* 薛之谦-丑八怪.mp3 in Resources */,
+				D65B42F4211137EB0002CC02 /* PlayerControls.xib in Resources */,
+				D65B42DA211137DC0002CC02 /* PandoraPlayer.storyboard in Resources */,
+				D65B431721115A950002CC02 /* 李贰叁-往后余生.mp3 in Resources */,
+				D65B42F0211137EB0002CC02 /* WaveVisualizer.xib in Resources */,
+				D65B42F7211137EB0002CC02 /* PlayerSongList.xib in Resources */,
+				D65B42C9211131FB0002CC02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5F4DFD16D9056119973534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testPandoraPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E20DB14E6D298ED20679AF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testPandoraPlayer/Pods-testPandoraPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FileKit/FileKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FileKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testPandoraPlayer/Pods-testPandoraPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D65B42BC211131FB0002CC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65B430E211137FB0002CC02 /* Song.swift in Sources */,
+				D65B430B211137FB0002CC02 /* UIImageEffects.swift in Sources */,
+				D65B430F211137FB0002CC02 /* PandoraPlayer.swift in Sources */,
+				D65B42F5211137EB0002CC02 /* CenterCellCollectionViewFlowLayout.swift in Sources */,
+				D65B42F1211137EB0002CC02 /* WaveVisualizer.swift in Sources */,
+				D65B42F8211137EB0002CC02 /* PlayerSlider.swift in Sources */,
+				D65B42EF211137EB0002CC02 /* RoundedPictureCollectionViewCell.swift in Sources */,
+				D65B4313211137FB0002CC02 /* NSObjectExtensions.swift in Sources */,
+				D65B42F3211137EB0002CC02 /* PlayerControls.swift in Sources */,
+				D65B42F2211137EB0002CC02 /* ViewWithXib.swift in Sources */,
+				D65B4312211137FB0002CC02 /* Array.swift in Sources */,
+				D65B42C6211131FB0002CC02 /* ViewController.swift in Sources */,
+				D65B42C4211131FB0002CC02 /* AppDelegate.swift in Sources */,
+				D65B42F6211137EB0002CC02 /* PlayerSongList.swift in Sources */,
+				D65B430A211137FB0002CC02 /* UIImageColors.swift in Sources */,
+				D65B430D211137FB0002CC02 /* MetaData.swift in Sources */,
+				D65B4311211137FB0002CC02 /* CommonExtensions.swift in Sources */,
+				D65B430C211137FB0002CC02 /* Constants.swift in Sources */,
+				D65B4310211137FB0002CC02 /* VisualisationHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D65B42C7211131FB0002CC02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65B42C8211131FB0002CC02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D65B42CC211131FD0002CC02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65B42CD211131FD0002CC02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D65B42D8211137DC0002CC02 /* PandoraPlayer.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65B42D9211137DC0002CC02 /* Base */,
+			);
+			name = PandoraPlayer.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D65B42D0211131FD0002CC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D65B42D1211131FD0002CC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D65B42D3211131FD0002CC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA656FA9C21D1765D73BDF6 /* Pods-testPandoraPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E5VG453CHM;
+				INFOPLIST_FILE = testPandoraPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqian.testPandoraPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D65B42D4211131FD0002CC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32363296049DD6EBCBD5DD6B /* Pods-testPandoraPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E5VG453CHM;
+				INFOPLIST_FILE = testPandoraPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqian.testPandoraPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D65B42BB211131FB0002CC02 /* Build configuration list for PBXProject "testPandoraPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65B42D0211131FD0002CC02 /* Debug */,
+				D65B42D1211131FD0002CC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65B42D2211131FD0002CC02 /* Build configuration list for PBXNativeTarget "testPandoraPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65B42D3211131FD0002CC02 /* Debug */,
+				D65B42D4211131FD0002CC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D65B42B8211131FB0002CC02 /* Project object */;
+}
